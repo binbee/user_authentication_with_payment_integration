@@ -1,0 +1,21 @@
+<%= link_to "Create Author", :controller=>"authors",:action=>"new"%>
+<a href="authors/new">New</a>
+<br/><br/><br/><br/><br/>
+<%= "Author Here"%>
+<% @author.each do |auth|%>
+<%= auth.name%>
+<%= auth.email%>
+<%end%>
+<br/><br/><br/><br/><br/>
+<%= "Product Here"%>
+<% @product.each do |pr|%>
+<%= pr.title%>
+<%= pr.descripti%>
+<%= image_tag pr.images.first.photo%>
+<%end%>
+
+<br/><br/><br/><br/><br/>
+<%= "Image Here"%>
+<% @image.each do |img|%>
+<%= image_tag img.photo%>
+<%end%>

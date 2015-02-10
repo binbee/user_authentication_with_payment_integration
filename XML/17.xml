@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<author>
+  <id type="integer">17</id>
+  <name>testrorapp20</name>
+  <email>test20@gmail.com</email>
+  <created-at type="dateTime">2015-02-04T15:29:26Z</created-at>
+  <updated-at type="dateTime">2015-02-04T15:29:26Z</updated-at>
+</author>

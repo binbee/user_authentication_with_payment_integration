@@ -1,0 +1,13 @@
+o: ActiveSupport::Cache::Entry:@valueI"’<p>Today Date is:  07:02:2015</p>
+<br/><br/><br/><br/><br/>
+<table>
+<tr>
+<td><p>Title  : jeans</p></td>
+<td><p>Description  : from spykar</p></td>
+<td><img alt="Jeans1" src="/system/images/photos/000/000/041/original/jeans1.jpeg?1423151772" /></td>
+<td><p>Price  : </p></td>
+<a href="/products/add_image?id=9">Add Image</a><br /><br /><br /><br />
+<a href="/products/trans?id=9">Buy</a>
+</tr>
+</table>
+:ET:@created_atf1423305544.6568081:@expires_in0

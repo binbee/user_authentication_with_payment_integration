@@ -1,0 +1,13 @@
+
+<%= form_for([@user], url: {:controller=>"users",:action=>"allow_login"}, method: :get) do |f|%>
+<tr>
+<td><%= f.label :email%></td><br/>
+<td><%= f.text_field :email%></td><br/>
+<td><%= f.label :password%></td><br/>
+<td><%= f.password_field :password%></td><br/>
+<%= check_box_tag :remember_me, 1, params[:remember_me]%>
+<td><%= submit_tag "login"%></td>
+</tr>
+<%end%>
+<p>Register<%= link_to "Sign Up", :controller=>"users",:action=>"new"%></p>
+<a href='/auth/facebook'>Facebook Login</a>

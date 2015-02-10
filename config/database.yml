@@ -1,0 +1,8 @@
+development:
+ adapter: postgresql
+ database: testing_app
+ host: localhost
+ username: postgres
+ password: postgres
+
+

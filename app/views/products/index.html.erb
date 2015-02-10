@@ -1,0 +1,20 @@
+<% cache do%>
+<p>Today Date is:  <%= my_time%></p>
+<br/><br/><br/><br/><br/>
+<table>
+<% @product.each do |p|%>
+<tr>
+<td><p>Title  : <%= p.title%></p></td>
+<td><p>Description  : <%=p.descripti %></p></td>
+<%if !p.images.blank?%>
+<% p.images.each do |img|%>
+<td><%= image_tag img.photo%></td>
+<%end%>
+<td><p>Price  : <%= p.price%></p></td>
+<%end%>
+<%= link_to "Add Image",:controller=>"products",:action=>"add_image",:id=>p.id%><br /><br /><br /><br />
+<%= link_to "Buy",:controller=>"products",:id=>p,:action=>"trans"%>
+</tr>
+<%end%>
+</table>
+<%end%>

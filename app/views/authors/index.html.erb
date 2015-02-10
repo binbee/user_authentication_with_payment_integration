@@ -1,0 +1,18 @@
+<table>
+<% @author.each do |v|%>
+<tr>
+<td><%= "Name"%></td>
+<td><%= link_to "#{v.name}", :controller =>"authors",:action=>"show",:id=>v.id%></td>
+<td><%= "Email"%></td>
+<td><%= v.email%></td>
+<td><%= image_tag v.image.photo if v.image rescue ""%></td>
+<td><%= link_to "Edit", edit_author_path(v)%></td>
+<td><%= link_to "Delete", v,:method=>"delete"%></td>
+
+<%end%>
+<td><%= will_paginate @author%></td>
+</tr>
+</table>
+
+
+<!--%= link_to "edit", {:controller=>"authors",:action=>"edit", obj=>v}%-->

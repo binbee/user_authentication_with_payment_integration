@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<author>
+  <id type="integer">9</id>
+  <name>from curl2</name>
+  <email>curl2@gmail.com</email>
+  <created-at type="dateTime">2015-02-02T15:56:32Z</created-at>
+  <updated-at type="dateTime">2015-02-02T15:56:32Z</updated-at>
+</author>
